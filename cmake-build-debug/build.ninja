@@ -61,6 +61,12 @@ build CMakeFiles/CS303_Assignment_2.dir/LinkedList.cpp.o: CXX_COMPILER__CS303_As
   OBJECT_DIR = CMakeFiles/CS303_Assignment_2.dir
   OBJECT_FILE_DIR = CMakeFiles/CS303_Assignment_2.dir
 
+build CMakeFiles/CS303_Assignment_2.dir/Stack.cpp.o: CXX_COMPILER__CS303_Assignment_2_unscanned_Debug /Users/hiramromero/Documents/CS303/CS303-Assignment$ 2/Stack.cpp || cmake_object_order_depends_target_CS303_Assignment_2
+  DEP_FILE = CMakeFiles/CS303_Assignment_2.dir/Stack.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CS303_Assignment_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/CS303_Assignment_2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CS303_Assignment_2
@@ -69,7 +75,7 @@ build CMakeFiles/CS303_Assignment_2.dir/LinkedList.cpp.o: CXX_COMPILER__CS303_As
 #############################################
 # Link the executable CS303_Assignment_2
 
-build CS303_Assignment_2: CXX_EXECUTABLE_LINKER__CS303_Assignment_2_Debug CMakeFiles/CS303_Assignment_2.dir/main.cpp.o CMakeFiles/CS303_Assignment_2.dir/LinkedList.cpp.o
+build CS303_Assignment_2: CXX_EXECUTABLE_LINKER__CS303_Assignment_2_Debug CMakeFiles/CS303_Assignment_2.dir/main.cpp.o CMakeFiles/CS303_Assignment_2.dir/LinkedList.cpp.o CMakeFiles/CS303_Assignment_2.dir/Stack.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/CS303_Assignment_2.dir
   POST_BUILD = :
